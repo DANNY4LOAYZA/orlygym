@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio Orly</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ORLY GYM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contenido">Contenido</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section text-center text-light d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h1>Bienvenido a Orly Gym</h1>
+            <p>Tu salud y bienestar son nuestra prioridad</p>
+            <a href="#servicios" class="btn btn-primary">Ver Servicios</a>
+        </div>
+    </section>
+
+    <!-- Contenido Section -->
+    <section id="contenido" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nuestra Misión</h2>
+            <p>En Orly Gym, promovemos un estilo de vida saludable con entrenamientos personalizados y un ambiente motivador.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="1.jpg" alt="Entrenamiento" class="img-fluid rounded">
+                    <h4>Entrenamientos Personalizados</h4>
+                </div>
+                <div class="col-md-4">
+                    <img src="2.jpg" alt="Equipamiento" class="img-fluid rounded">
+                    <h4>Equipamiento Moderno</h4>
+                </div>
+                <div class="col-md-4">
+                    <img src="3.jpg" alt="Clases Grupales" class="img-fluid rounded">
+                    <h4>Clases Grupales</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nuestros Servicios</h2>
+            <ul>
+                <li>Planes de entrenamiento personalizados</li>
+                <li>Clases grupales: yoga, zumba y más</li>
+                <li>Entrenamiento funcional</li>
+                <li>Asesoría nutricional</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contáctanos</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea id="mensaje" class="form-control" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-3 bg-dark text-light">
+        <p>&copy; 2024 Orly Gym. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
